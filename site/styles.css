@@ -9,6 +9,14 @@ h1
 	font-family: helvetica,arial,courier;
 	font-weight: bold;
 }
+.normal-text
+{
+	clear: both;
+	font-size: 16px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+/* Styling for all classes */
 section
 {
 	height: 300px;
@@ -16,24 +24,15 @@ section
 	border: 1px solid black;
 	float: left;
 	font-family: sans-serif, serif;
-	background-color: #D3D3D3;
+	background-color: grey;
 	font-weight: 100;
+	position: relative;
 }
-p
-{
-	clear: both;
-	font-size: 16px;
-	padding-left: 10px;
-	padding-right: 10px;
-}
-
-/* Styling for all classes */
-
 .row{
 	width: 100%;
 	align-content: center;
+	position: relative;
 }
-
 /*Styling for all indentifiers*/
 #item1
 {
@@ -75,7 +74,6 @@ p
 	font-weight: bold;
 	font-size: 24px;
 }
-
 /* media queries for responsive layout */
 @media (min-width: 992px) {
 .col-lg-1,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-lg-10,.col-lg-11,.col-lg-12 {
